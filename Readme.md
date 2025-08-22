@@ -1,6 +1,6 @@
-# HTTP Server from Scratch in Go
+# <span style="color:blue">HTTP Server from Scratch in Go
 
-## Overview
+## <span style="color:blue">Overview
 This project is an implementation of a simple **HTTP server** built **from scratch** on top of **TCP sockets** in Go.  
 Instead of relying on Go's standard `net/http` package, the server directly uses low-level TCP connections to parse HTTP requests and send responses manually.  
 
@@ -11,7 +11,7 @@ This helps in understanding:
 
 ---
 
-## What is TCP?
+## <span style="color:blue">What is TCP?
 - **Transmission Control Protocol (TCP)** is a core protocol of the Internet protocol suite.
 - It provides a **reliable, ordered, and error-checked** stream of communication between applications.
 - Key features:
@@ -21,7 +21,7 @@ This helps in understanding:
 
 ---
 
-## What is HTTP?
+## <span style="color:blue">What is HTTP?
 - **Hypertext Transfer Protocol (HTTP)** is an **application layer protocol** that runs on top of TCP.
 - It defines rules for communication between **clients (browsers)** and **servers** on the web.
 - HTTP messages consist of:
@@ -35,20 +35,20 @@ This helps in understanding:
 
 ---
 
-## Project Goal
+## <span style="color:blue">Project Goal
 - Implement a **basic HTTP server** in Go using raw TCP sockets.
 - Handle incoming connections, parse raw HTTP requests, and return HTTP responses.
 - Gain deeper insight into how higher-level protocols (HTTP) are built over lower-level protocols (TCP).
 
 ---
 
-## Tech Stack
+## <span style="color:blue">Tech Stack
 - **Language**: Go (Golang)  
 - **Protocols**: TCP (transport layer), HTTP (application layer)
 
 ---
 
-## Future Enhancements
+## <span style="color:blue">Future Enhancements
 - Support for multiple routes.
 - Handling different HTTP methods (`GET`, `POST`, etc.).
 - Parsing and responding with JSON.
